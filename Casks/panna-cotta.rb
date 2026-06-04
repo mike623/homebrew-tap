@@ -1,13 +1,13 @@
 cask "panna-cotta" do
-  version "0.1.13"
+  version "0.1.14"
 
   on_arm do
-    sha256 "7f2f45299a1022d01f29461c666490f3a7fded3b4f18b73315afca13323cba64"
+    sha256 "50f54f2d2a181a44271e6e25e5ed0440620cdd42dc1accbdd1fc54706cdabd36"
 
     url "https://github.com/mike623/panna-cotta/releases/download/v#{version}/Panna.Cotta_#{version}_aarch64.dmg"
   end
   on_intel do
-    sha256 "f51bb45553e5ace7045a4fe39d0564690867546acac1a471b241764f37107fa7"
+    sha256 "28eb703555c21de22adad8ad4ec47889a0e2b72f67702d3cd29ec8c65354f638"
 
     url "https://github.com/mike623/panna-cotta/releases/download/v#{version}/Panna.Cotta_#{version}_x64.dmg"
   end
